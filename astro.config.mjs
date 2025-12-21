@@ -7,7 +7,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: "HowieCong's Docs",
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/howiecong/docs' }],
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/howiecong' }],
 			sidebar: [
 				{
 					label: 'AI',
