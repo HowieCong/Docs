@@ -10,8 +10,29 @@ export default defineConfig({
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/howiecong' }],
 			sidebar: [
 				{
-					label: 'AI',
-					link: '/docs/AI',
+					label: 'Front End',
+					items: [
+						{ label: 'React', slug: 'front-end/react' },
+					],
+				},	
+				{
+					label: 'Back End',
+					items: [
+						{ label: 'Node.js', slug: 'back-end/nodejs' },
+					],
+				},
+				{
+					label: 'AI Agent',
+					items: [
+						{ label: '1. Langchain', slug: 'ai-agent/langchain' },
+						{ label: '2. Langgraph', slug: 'ai-agent/langgraph' },
+					],
+				},
+				{
+					label: 'Open Source',
+					items: [
+						{ label: 'Visactor', slug: 'open-source/visactor' },
+					],
 				},
 				{
 					label: 'Guides',
@@ -19,10 +40,6 @@ export default defineConfig({
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Example Guide', slug: 'guides/example' },
 					],
-				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
 				},
 			],
 		}),

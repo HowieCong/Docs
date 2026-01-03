@@ -6,7 +6,7 @@ hero:
   image:
     file: ../../assets/houston.webp
   actions:
-    - text: Start Reading!
+    - text: 开始学习!
       link: /guides/example/
       icon: right-arrow
     - text: Read the Starlight docs!
@@ -17,17 +17,19 @@ hero:
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## 下一步！
 
 <CardGrid stagger>
-	<Card title="AI Agent" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
 	<Card title="Front-End" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
+    前端学习
 	</Card>
 	<Card title="Back-End" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+		后端学习
 	</Card>
+  <Card title="AI Agent" icon="pencil">
+    AI Agent学习
+	</Card>
+  <Card title="Open Source" icon="">
+    开源
+  </Card>
 </CardGrid>
