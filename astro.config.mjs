@@ -10,15 +10,17 @@ export default defineConfig({
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/howiecong' }],
 			sidebar: [
 				{
-					label: 'Front End',
+					label: 'Front-End',
 					items: [
-						{ label: 'React', slug: 'front-end/react' },
+						{ label: '1. React', slug: 'front-end/react' },
+						{ label: '2. Babel', slug: 'front-end/babel' },
 					],
 				},	
 				{
-					label: 'Back End',
+					label: 'Back-End',
 					items: [
-						{ label: 'Node.js', slug: 'back-end/nodejs' },
+						{ label: '1. Node.js', slug: 'back-end/nodejs' },
+						{ label: '2. Koa.js', slug: 'back-end/koajs' },
 					],
 				},
 				{
@@ -35,10 +37,10 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'Guides',
+					label: 'Autonomous-Driving',
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Data-Loop', slug: 'autonomous-driving/data-loop' },
+						{ label: 'BEV', slug: 'autonomous-driving/bev' },
 					],
 				},
 			],
