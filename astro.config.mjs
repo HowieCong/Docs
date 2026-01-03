@@ -39,8 +39,8 @@ export default defineConfig({
 				{
 					label: 'Autonomous-Driving',
 					items: [
-						{ label: 'Data-Loop', slug: 'autonomous-driving/data-loop' },
-						{ label: 'BEV', slug: 'autonomous-driving/bev' },
+						{ label: '1. Data-Loop', slug: 'autonomous-driving/data-loop' },
+						{ label: '2. BEV', slug: 'autonomous-driving/bev' },
 					],
 				},
 			],
