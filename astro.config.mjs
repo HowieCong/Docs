@@ -49,6 +49,12 @@ export default defineConfig({
                       { label: '2.BEV', slug: 'autonomous-driving/bev' },
                   ],
               },
+			  {
+				label: 'Personal Research',
+				items: [
+					{ label: '1.Paper', slug: 'personal-rearch/paper' },
+				],
+			  }
           ],
       }),
 	],
